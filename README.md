@@ -12,20 +12,20 @@ You may think it's hard, but I'll try to make it easier for you
 #How code look like:
 
 ###For Animatronics:
-`{
-  "Animatroniki": [
-        {
-            "name": "( _Animatronic name_ )",
-            "Włączony": ( _Is animatronic turned on(true/false)_ ),
-            "Prędkość": _(How speed have animatronic moving(normal speed*that speed value))_
-        }
-    ]
-}`
+    `{
+      "Animatroniki": [
+            {
+                "name": "( _Animatronic name_ )",
+                "Włączony": ( _Is animatronic turned on(true/false)_ ),
+                "Prędkość": _(How speed have animatronic moving(normal speed*that speed value))_
+            }
+        ]
+    }`
 ###For Player
-`{
-    "player": {
-        "playerName": ( _(Player name(default: Denis)_ )",
-        "speed": _(Player move speed(normal speed*that speed value))_
-    }
-}`
+    `{
+        "player": {
+            "playerName": ( _(Player name(default: Denis)_ )",
+            "speed": _(Player move speed(normal speed*that speed value))_
+        }
+    }`
 ```

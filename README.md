@@ -27,17 +27,17 @@ Syntax highlighted code block
 ```
 
 ```Mod sample
-`
+
 {
   "Animatroniki": [
         {
-            "name": _Animatronic name_,
-            "Włączony": _Is animatronic turned on(true/false)_,
-            "Prędkość": _How speed have animatronic moving(normal speed*that speed value)_
+            "name": (_Animatronic name_),
+            "Włączony": (_Is animatronic turned on(true/false)_),
+            "Prędkość": _(How speed have animatronic moving(normal speed*that speed value))_
         }
     ]
 }
-`
+
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).

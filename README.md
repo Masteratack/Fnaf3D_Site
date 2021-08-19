@@ -1,58 +1,31 @@
 ## FnaF 3D Modding guide
 
-You can use the [editor on GitHub](https://github.com/Masteratack/Fnaf3D_Site/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+How to mod FnaF 3D
+1. First step
+ - Make an file `Dynia.crazy` in root folder
+ - Make sure that you know, what are you doing, becouse modding this game is like *cheating* or _*challange*_.
+ - If you have a code editor like "Visual Studio Code" you can use it, but a notepad is enough to program it.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
+2. Code Creation
+You may think it's hard, but I'll try to make it easier for you
 ```markdown
 #How code look like:
 
-##For Animatronics:
+###For Animatronics:
 `{
   "Animatroniki": [
         {
-            "name": "(_Animatronic name_)",
-            "Włączony": (_Is animatronic turned on(true/false)_),
+            "name": "( _Animatronic name_ )",
+            "Włączony": ( _Is animatronic turned on(true/false)_ ),
             "Prędkość": _(How speed have animatronic moving(normal speed*that speed value))_
         }
     ]
 }`
+###For Player
 `{
     "player": {
-        "playerName": ("(Player name(default: Denis)_)",
+        "playerName": ( _(Player name(default: Denis)_ )",
         "speed": _(Player move speed(normal speed*that speed value))_
     }
 }`
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Masteratack/Fnaf3D_Site/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.

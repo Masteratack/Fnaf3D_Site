@@ -8,11 +8,12 @@ How to mod FnaF 3D
 
 2. Code Creation
 You may think it's hard, but I'll try to make it easier for you
-```markdown
-#How code look like:
 
-###For Animatronics:
-    `{
+```json
+##For Animatronics:
+
+
+    {
       "Animatroniki": [
             {
                 "name": "( _Animatronic name_ )",
@@ -20,12 +21,16 @@ You may think it's hard, but I'll try to make it easier for you
                 "Prędkość": _(How speed have animatronic moving(normal speed*that speed value))_
             }
         ]
-    }`
-###For Player
-    `{
+    }
+    
+##For Player
+
+
+    {
         "player": {
             "playerName": ( _(Player name(default: Denis)_ )",
             "speed": _(Player move speed(normal speed*that speed value))_
         }
-    }`
+    }
+    
 ```

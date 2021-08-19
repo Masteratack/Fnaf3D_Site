@@ -11,7 +11,7 @@ How to mod FnaF 3D
 You may think it's hard, but I'll try to make it easier for you
 
 
-##For Animatronics:
+## For Animatronics:
 ```json
 {
   "Animatroniki": [
@@ -30,7 +30,7 @@ You may think it's hard, but I'll try to make it easier for you
 
 >"Prędkość": _(How speed have animatronic moving(normal speed*that speed value))_
 
-##For Player
+## For Player
 ```json
 {
     "player": {

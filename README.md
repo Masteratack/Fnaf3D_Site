@@ -26,18 +26,25 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
-```Mod sample
+```markdown
+#How code look like:
 
-{
+##For Animatronics:
+`{
   "Animatroniki": [
         {
-            "name": (_Animatronic name_),
+            "name": "(_Animatronic name_)",
             "Włączony": (_Is animatronic turned on(true/false)_),
             "Prędkość": _(How speed have animatronic moving(normal speed*that speed value))_
         }
     ]
-}
-
+}`
+`{
+    "player": {
+        "playerName": ("(Player name(default: Denis)_)",
+        "speed": _(Player move speed(normal speed*that speed value))_
+    }
+}`
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
